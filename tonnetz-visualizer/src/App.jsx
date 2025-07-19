@@ -14,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/" element={<UploadSongPage />} />
       <Route path="/visualization" element={<TonnetzVisPage />} />
+      <Route path="/upload" element={<UploadSongPage />} />
     </Routes>
   );
 }
