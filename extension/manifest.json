@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tonnetz Visualizer for YouTube",
+  "version": "1.0",
+  "description": "Generate a Tonnetz visualization for any YouTube song.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["inject.css"]
+    }
+  ],
+  "action": {
+    "default_title": "Tonnetz Visualizer"
+  }
+}
