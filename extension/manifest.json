@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Tonnetz Visualizer for YouTube",
+  "name": "Tonnetz Chord Visualizer for YouTube",
   "version": "1.0",
-  "description": "Generate a Tonnetz visualization for any YouTube song.",
+  "description": "Generate a Tonnetz chord visualization for any YouTube song.",
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
