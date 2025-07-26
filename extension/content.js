@@ -17,7 +17,11 @@ window.addEventListener("load", () => {
             .then((data) => {
               console.log("Received Tonnetz:", data);
               alert("Tonnetz ready! Open DevTools to see JSON.");
-              //trigger visualization logic here.
+              //triggered logic...
+              // 1. get curr YT videoID
+              // 2. call http://localhost:5000/analyze/${videoId}
+              // 3. show feedback (console log, alert, overlay etc.)
+
             });
         };
         controls.appendChild(btn);
